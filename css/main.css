@@ -1008,6 +1008,10 @@ footer .logo {
   font-size: 14px;
   line-height: 24px;
   color: var(--white);
+  transition: color var(--animation);
+}
+.contact-info__address:hover, .contact-info__address:focus {
+  color: var(--blue);
 }
 
 .contact-info__contacts {

@@ -20,6 +20,12 @@
     font-size: 14px;
     line-height: 24px;
     color: var(--white);
+    transition: color var(--animation);
+
+    &:hover,
+    &:focus {
+        color: var(--blue);
+    }
 }
 
 .contact-info__contacts {
